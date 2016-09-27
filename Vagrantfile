@@ -83,7 +83,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         # Remove this to keep default VM name
         vb.name = host['name']
         # If assigning VMs to a group fails, remove the following line
-        vb.customize ['modifyvm', :id, '--groups', PROJECT_NAME]
+        #vb.customize ['modifyvm', :id, '--groups', PROJECT_NAME]
       end
     end
   end
