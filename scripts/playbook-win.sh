@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /bin/bash
 # Source: https://github.com/geerlingguy/JJG-Ansible-Windows/blob/master/windows.sh
 
 # Windows shell provisioner for Ansible playbooks, based on KSid's
