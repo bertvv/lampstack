@@ -18,7 +18,7 @@ rhbase_firewall_allow_services:
 httpd_scripting: 'php'
 
 mariadb_databases:
-  - wordpress
+  - name: wordpress
 
 mariadb_users:
   - name: wordpressusr
