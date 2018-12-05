@@ -17,17 +17,17 @@
 
 - name: Compile module (step 1)
   command: checkmodule -M -m -o /tmp/syncedwww.mod /tmp/syncedwww.te
-  when: copypolicy|changed
+  when: copypolicy is changed
   tags: sepolicy
 
 - name: Compile module (step 2)
   command: semodule_package -o /tmp/syncedwww.pp -m /tmp/syncedwww.mod
-  when: copypolicy|changed
+  when: copypolicy is changed
   tags: sepolicy
 
 - name: Install compiled policy
   command: semodule -i /tmp/syncedwww.pp
-  when: copypolicy|changed
+  when: copypolicy is changed
   tags: sepolicy
 
 - name: Remove artefacts
