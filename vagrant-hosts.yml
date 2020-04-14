@@ -27,7 +27,10 @@
 ---
 
 - name: lamp
+  box: bento/centos-7.6
   ip: 192.168.56.77
+  cpus: 2
+  memory: 4096
   synced_folders:
     - src: www
       dest: /var/www/html
