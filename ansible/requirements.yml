@@ -1,0 +1,14 @@
+# Role dependencies
+---
+
+- name: bertvv.rh-base
+  version: v4.0.3
+
+- name: bertvv.httpd
+  version: v2.0.1
+
+- name: bertvv.mariadb
+  version: v3.1.1
+
+- name: bertvv.wordpress
+  version: v1.4.1
