@@ -8,7 +8,6 @@
     - bertvv.httpd
     - bertvv.mariadb
     - bertvv.wordpress
-    - phpmyadmin
   tasks:
     - name: Install Cockpit
       package:

@@ -24,8 +24,6 @@ mariadb_users:
     password: BulpashCod
     priv: 'wordpress.*:ALL'
 
-mariadb_root_password: Teilvadci
-
 wordpress_database: wordpress
 wordpress_user: wordpressusr
 wordpress_password: BulpashCod
